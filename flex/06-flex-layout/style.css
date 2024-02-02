@@ -19,7 +19,8 @@ body {
   flex-direction: column;
 }
 
-div.header {
+div.header,
+div.footer {
   display: flex;
   padding: 16px;
 }
@@ -30,10 +31,9 @@ div.header {
 }
 
 div.footer {
-  display: flex;
   margin-top: auto;
   background-color: #eeeeee;
-  padding: 16px;
+
 }
 
 li {
